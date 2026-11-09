@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceBloom</title>
+<meta name="description" content="SpaceBloom: five simple, honest phone tools. Junk Cleaner, Battery Information, Speaker Clean, Network Test and App Usage.">
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+:root{--brand1:#6C4DF6;--brand2:#9B6CFF;--bg:#F6F4FE;--surface:#FFFFFF;--text:#1C1B22;--muted:#5E5A6E;--line:#E4E0F5;--chip:#EEE9FF;--link:#5B3BE8}
+@media (prefers-color-scheme:dark){:root{--bg:#121019;--surface:#1D1A26;--text:#E8E4F3;--muted:#ABA6BC;--line:#343044;--chip:#2C2546;--link:#B9A6FF}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+a{color:var(--link)}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header.hero{background:linear-gradient(135deg,var(--brand1),var(--brand2));color:#fff;padding:48px 0 56px}
+.brand{display:flex;align-items:center;gap:16px}
+.brand img{width:72px;height:72px;border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.brand h1{margin:0;font-size:2rem;line-height:1.1}
+.tag{margin:20px 0 0;font-size:1.15rem;max-width:36em;opacity:.95}
+.cta{display:inline-block;margin-top:28px;background:#fff;color:var(--brand1);font-weight:700;text-decoration:none;padding:14px 22px;border-radius:14px}
+.cta:hover,.cta:focus{background:#F1EDFF}
+main{padding:32px 0 16px}
+h2{font-size:1.35rem;margin:8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.card h3{margin:0 0 6px;font-size:1.08rem;display:flex;align-items:center;gap:10px}
+.dot{width:32px;height:32px;border-radius:50%;background:var(--chip);display:inline-flex;align-items:center;justify-content:center;flex:none}
+.dot svg{width:18px;height:18px;fill:var(--brand1)}
+@media (prefers-color-scheme:dark){.dot svg{fill:#B9A6FF}}
+.card p{margin:0;color:var(--muted)}
+.note{margin:24px 0 0;padding:16px 18px;border-radius:16px;background:var(--surface);border:1px solid var(--line);color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:32px;padding:20px 0 32px;color:var(--muted);font-size:.95rem}
+footer .links{display:flex;flex-wrap:wrap;gap:8px 20px;margin-bottom:8px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <img src="icon.png" alt="SpaceBloom icon" width="72" height="72">
+      <h1>SpaceBloom</h1>
+    </div>
+    <p class="tag">Five simple, honest tools for your Android phone. Every number comes straight from Android, and nothing is deleted unless you choose it.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.superclean.mls.spacebloom">Get it on Google Play</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>What SpaceBloom does</h2>
+  <div class="grid">
+    <section class="card">
+      <h3><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.36,2.72l1.42,1.42 -5.72,5.72c1.07,1.54 1.22,3.42 0.03,4.61L9.31,8.69c1.19,-1.19 3.07,-1.04 4.61,0.03L19.36,2.72zM5.93,17.57c-2.01,-2.01 -3.24,-4.41 -3.58,-6.65l4.88,-2.09 7.44,7.44 -2.09,4.88c-2.24,-0.34 -4.64,-1.57 -6.65,-3.58z"/></svg></span>Junk Cleaner</h3>
+      <p>With Usage access, see the real cache size of each app and open its settings to clear it (Android only allows clearing another app's cache there). Find APK files, large media files and empty folders, review them, and delete only what you choose.</p>
+    </section>
+    <section class="card">
+      <h3><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.67,4H14V2h-4v2H8.33C7.6,4 7,4.6 7,5.33v15.33C7,21.4 7.6,22 8.33,22h7.33c0.74,0 1.34,-0.6 1.34,-1.33V5.33C17,4.6 16.4,4 15.67,4z"/></svg></span>Battery Information</h3>
+      <p>Level, charging status, power source, health, temperature, voltage and current, as reported by your phone. Values your device doesn't report are shown as not available.</p>
+    </section>
+    <section class="card">
+      <h3><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3,9v6h4l5,5V4L7,9H3zM16.5,12c0,-1.77 -1.02,-3.29 -2.5,-4.03v8.05c1.48,-0.73 2.5,-2.25 2.5,-4.02zM14,3.23v2.06c2.89,0.86 5,3.54 5,6.71s-2.11,5.85 -5,6.71v2.06c4.01,-0.91 7,-4.49 7,-8.77s-2.99,-7.86 -7,-8.77z"/></svg></span>Speaker Clean</h3>
+      <p>Plays a low-frequency tone for 30 seconds, with optional vibration, that may help push out water or dust. Results vary.</p>
+    </section>
+    <section class="card">
+      <h3><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1,9l2,2c4.97,-4.97 13.03,-4.97 18,0l2,-2C16.93,2.93 7.08,2.93 1,9zM9,17l3,3 3,-3c-1.65,-1.66 -4.34,-1.66 -6,0zM5,13l2,2c2.76,-2.76 7.24,-2.76 10,0l2,-2C15.14,9.14 8.87,9.14 5,13z"/></svg></span>Network Test</h3>
+      <p>Shows your connection type and measures real download speed and latency with a short test download.</p>
+    </section>
+    <section class="card">
+      <h3><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5,9.2h3V19H5zM10.6,5h2.8v14h-2.8zM16.2,13H19v6h-2.8z"/></svg></span>App Usage</h3>
+      <p>With Usage access, see your screen time per app for today and the last 7 days.</p>
+    </section>
+  </div>
+
+  <p class="note">SpaceBloom is free and supported by ads. Usage access, media access and file information stay on your phone. See the <a href="privacy-policy.html">privacy policy</a> for details.</p>
+</main>
+
+<footer class="wrap">
+  <div class="links">
+    <a href="privacy-policy.html">Privacy policy</a>
+    <a href="mailto:mazaappstudio@gmail.com">mazaappstudio@gmail.com</a>
+  </div>
+  <div>© SpaceBloom</div>
+</footer>
+</body>
+</html>
